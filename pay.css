@@ -1,0 +1,25 @@
+#frame{
+height:400px;
+width:300px;
+border-radius:20px;
+outline:9px solid yellow;
+border:3px solid black;
+position:;
+left:500px;
+bottom:300px;
+text-align:center;
+background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+#frame2{
+height:400px;
+width:300px;
+border-radius:20px;
+outline:9px solid yellow;
+border:3px solid black;
+position:;
+left:500px;
+bottom:300px;
+text-align:center;
+background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+
+}
