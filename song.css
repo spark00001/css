@@ -1,0 +1,22 @@
+body{
+color:gold;
+}
+.gallery{
+display:flex;
+flex-wrap:wrap;
+gap:70px;
+color:gold;
+}
+.image-item{
+border:1px solid red;
+padding:10px;
+text-allign:center;
+}
+.image-item img{
+max-width:150px;
+height:200px;
+}
+.effect:hover{
+width:190px;
+height:230px;
+}
