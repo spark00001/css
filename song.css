@@ -1,18 +1,18 @@
 body{
 color:gold;
 }
-.gallery{
+.song{
 display:flex;
 flex-wrap:wrap;
 gap:70px;
 color:gold;
 }
-.image-item{
+.song-item{
 border:1px solid red;
 padding:10px;
 text-allign:center;
 }
-.image-item img{
+.song-item img{
 max-width:150px;
 height:200px;
 }
