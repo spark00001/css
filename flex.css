@@ -9,15 +9,18 @@ color:gold;
 border:1px solid red;
 padding:10px;
 text-allign:center;
+  border-radius:30px 45px;
 }
 .image-item img{
 max-width:150px;
 height:200px;
+  border-radius:30px 45px;
 }
 .effect:hover{
 width:190px;
 height:230px;
 }
+
 
 
 
