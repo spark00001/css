@@ -10,7 +10,7 @@
         }
         .slider img {
             height: 150px;
-            max-width: 100px;
+            width: 100px;
             margin: 10px; /* Add some spacing */
         }
         .slider a {
