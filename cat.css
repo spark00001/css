@@ -1,0 +1,15 @@
+div.cat {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.cat genere{
+  padding: 10px;
+}
+genere{
+  border:2px solid gold;
+  color: gold;
+  padding:10px;
+}
