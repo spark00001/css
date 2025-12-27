@@ -2,7 +2,7 @@
 .gallery{
 display:flex;
 flex-wrap:wrap;
-gap:70px;
+gap:50px;
 color:gold;
 }
 .image-item{
@@ -20,6 +20,7 @@ height:200px;
 width:190px;
 height:230px;
 }
+
 
 
 
