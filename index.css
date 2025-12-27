@@ -5,7 +5,7 @@ body {font-family: Verdana, sans-serif; margin:0; background-color: #0a0f0f;
 .gallery{
 display:flex;
 flex-wrap:wrap;
-gap:50px;
+gap:35px;
 color:gold;
 }
 .image-item{
