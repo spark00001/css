@@ -2,7 +2,7 @@ div.cat {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
-  padding: 10px;
+  padding: 0px;
 }
 
 div.cat genere{
