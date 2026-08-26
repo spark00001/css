@@ -1,4 +1,4 @@
-:root {
+ :root {
       --bg-dark: #07090e;
       --card-bg: #11141d;
       --accent: #00d2ff;
@@ -12,11 +12,11 @@
       margin: 0;
       padding: 0;
       user-select: none;
-      -webkit-tap-highlight-color: transparent;
+      -webkit-tap-highlight-color: transparent; /* Removes blue tap highlight on mobile */
     }
 
     button:focus, input:focus {
-      outline: none;
+      outline: none; /* Removes default blue focus outline on desktop */
     }
 
     body {
@@ -64,10 +64,9 @@
       cursor: pointer;
     }
 
-    /* Auto-disappear cursor completely from container and all child elements */
-    .video-container.hide-controls,
-    .video-container.hide-controls * {
-      cursor: none !important;
+    /* Hide cursor and controls on 1-sec idle */
+    .video-container.hide-controls {
+      cursor: none;
     }
 
     .controls-overlay {
@@ -85,7 +84,6 @@
 
     .video-container.hide-controls .controls-overlay {
       opacity: 0;
-      pointer-events: none;
     }
 
     .controls-overlay * {
@@ -217,7 +215,6 @@
       height: 4px;
       background: rgba(255, 255, 255, 0.25);
       border-radius: 2px;
-      outline: none;
       cursor: pointer;
     }
 
