@@ -1,0 +1,92 @@
+/* Search Component Scoped Styles */
+  .auto-search-wrapper {
+    box-sizing: border-box;
+    width: 100%; /* Spans 100% of its direct parent container */
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05); /* Semi-transparent, works on dark & light backgrounds */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    padding: 6px 6px 6px 16px;
+    gap: 12px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+  }
+
+  /* Universal box-sizing inside the search bar */
+  .auto-search-wrapper * {
+    box-sizing: border-box;
+  }
+
+  .auto-search-wrapper:focus-within {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+  }
+
+  .auto-search-icon {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .auto-search-input {
+    width: 100%;
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 6px 0;
+  }
+
+  .auto-search-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .auto-search-btn {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+
+  .auto-search-btn:hover {
+    background-color: #e2e8f0;
+  }
+
+  .auto-search-btn:active {
+    transform: scale(0.96);
+  }
+
+  /* Responsive Rules: Adapts to small parent containers / mobile screens */
+  @media (max-width: 480px) {
+    .auto-search-wrapper {
+      padding: 4px 4px 4px 12px;
+      gap: 8px;
+    }
+
+    .auto-search-btn-text {
+      display: none; /* Collapses text to fit small mobile screens */
+    }
+
+    .auto-search-btn {
+      padding: 10px 14px;
+      border-radius: 50%;
+    }
+
+    .auto-search-input {
+      font-size: 0.9rem;
+    }
+  }
